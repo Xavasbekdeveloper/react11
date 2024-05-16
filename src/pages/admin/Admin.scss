@@ -1,0 +1,21 @@
+.admin{
+    display: grid;
+    grid-template-columns: 255px 1fr;
+    transition: .3s;
+}
+
+.admin.close{
+    grid-template-columns: 74px 1fr;
+    .sidebar__logo,
+    .sidebar__link{
+        span {
+            display: none;
+        }
+    }
+
+    .sidebar__btns button {
+        span {
+            display: none;
+        }
+    }
+}

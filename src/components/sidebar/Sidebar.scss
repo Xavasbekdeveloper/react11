@@ -1,0 +1,102 @@
+.sidebar{
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;    
+    background: #363740;
+    padding: 30px 0;
+    overflow: hidden;
+
+    &__list{
+        margin-top: 51px;
+        margin-bottom: 160px;
+    }
+    
+    &__logo {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 18px;
+        transition: .3s;
+        text-wrap: nowrap;
+        padding-left: 24px;
+
+        span {
+            color: #A4A6B3;
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 23.85px;
+            letter-spacing: 0.4000000059604645px;
+        }
+
+        svg {
+            color: #F3D7FF;
+            width: 34px;
+            height: 34px;
+        }
+    }
+
+    &__link{
+        height: 56px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 14px;
+        color: #fff;
+        transition: .3s;
+        text-wrap: nowrap;
+        padding: 18px 24px;
+        background-color: transparent;
+        border-left: 3px solid transparent;
+
+        svg{
+            color: #F3D7FF;
+            width: 16px;
+            height: 16px;
+        }
+
+        span {
+            color: #A4A6B3;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20.08px;
+            letter-spacing: 0.20000000298023224px;
+        }
+    }
+
+    &__link.active{
+        border-color: #DDE2FF;
+        background: #9fa2b428;
+    }
+
+    &__btns {
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+        padding-left: 20px;
+
+        button {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            background-color: transparent;
+            border: none;
+            transition: .3s;
+            text-wrap: nowrap;
+
+            svg {
+                width: 24px;
+                height: 24px;
+                color: #F3D7FF;
+            }
+
+            span {
+                color: #A4A6B3;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 19.2px;
+            }
+        }
+    }
+
+}

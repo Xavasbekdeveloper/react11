@@ -1,0 +1,29 @@
+.admin__header {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+
+    button {
+        border: none;
+        background-color: transparent;
+
+        svg {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+
+        p {
+            color: #252733;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 0.20000000298023224px;
+        }
+    }
+}

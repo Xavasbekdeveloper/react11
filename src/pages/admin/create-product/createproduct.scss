@@ -1,0 +1,32 @@
+.create {
+    padding: 30px;
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        input {
+            width: 60%;
+            padding: 8px 14px;
+            font-size: 15px;
+            font-weight: 500;
+            outline: none;
+            border: 1px solid gray;
+            border-radius: 6px;
+            color: gray;
+        }
+
+        button {
+            width: 60%;
+            padding: 8px 14px;
+            border: 1px solid gray;
+            border-radius: 6px;
+            outline: none;
+        }
+    }
+}
